@@ -11,13 +11,22 @@ Tags: wordcamp, singapore
     display: none;
 }
 
+.custom-header{
+    background: url('https://2017.singapore.wordcamp.org/files/2017/05/wordcamp_banner_0529_mobile.jpg') no-repeat;
+}
+
+.wp-custom-header{
+    display: none;
+}
+
 @media only screen and (min-width: 767px) {
 
     .custom-header{
-        background: url('https://2017.singapore.wordcamp.org/files/2017/05/wordcamp_banner_0529_mobile.jpg') no-repeat;
+        background: none;
     }
 
     .wp-custom-header{
-        display: none;
+        display: block;
     }
+
 }
