@@ -1,0 +1,23 @@
+/*
+Version: 1.0
+Description: Written by <a href="https://profiles.wordpress.org/kenshino/">Jon Ang</a>.
+Author: Jon Ang
+Author URI: https://lordjon.com/
+Tags: wordcamp, singapore
+*/
+
+.home .site-title,
+.home .site-description {
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .custom-header{
+        background: url('https://2017.singapore.wordcamp.org/files/2017/05/wordcamp_banner_0529_mobile.jpg') no-repeat;
+    }
+
+    .wp-custom-header{
+        display: none;
+    }
+}
