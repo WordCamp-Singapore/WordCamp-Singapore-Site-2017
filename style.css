@@ -28,5 +28,10 @@ Tags: wordcamp, singapore
     .wp-custom-header{
         display: block;
     }
+    
+    .wcorg-organizer {
+		float: left;
+		width: 50%;
+	}
 
 }
