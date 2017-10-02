@@ -8,15 +8,19 @@ Tags: wordcamp, singapore
 
 .home .site-title,
 .home .site-description {
-    display: none;
+    	display: none;
 }
 
 .custom-header{
-    background: url('https://2017.singapore.wordcamp.org/files/2017/05/wordcamp_banner_0529_mobile.jpg') no-repeat;
+    	background: url('https://2017.singapore.wordcamp.org/files/2017/05/wordcamp_banner_0529_mobile.jpg') no-repeat;
 }
 
 .wp-custom-header{
-    display: none;
+    	display: none;
+}
+
+thead th {
+	text-align: center;
 }
 
 /* Schedule */
