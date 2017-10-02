@@ -19,6 +19,49 @@ Tags: wordcamp, singapore
     display: none;
 }
 
+/* Schedule */
+
+.wcpt-schedule > thead{
+	background-color: #111;
+	font-size: 1.2rem;
+	color: #eee;
+	font-variant: small-caps;
+}
+
+.wcpt-schedule a{
+	box-shadow: none;
+	color: #111;
+}
+
+.wcpt-col-time {
+	width: 5rem;
+}
+
+td.wcpt-time {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+tr.global-session > td{
+	text-align: center;
+}
+
+td.wcpt-session-type-custom {
+	color: #777;
+}
+
+td.wcpt-session-type-session {
+	font-weight: bold;
+}
+
+.wcpt-session-speakers {
+	color: #111;
+	font-weight: normal;
+	font-style: italic;
+	display: block;
+}
+
 @media only screen and (min-width: 767px) {
 	body:not(.has-sidebar):not(.page-one-column) 
 	.page-header, body.has-sidebar.error404 #primary .page-header, 
