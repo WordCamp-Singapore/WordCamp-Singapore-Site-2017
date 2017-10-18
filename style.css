@@ -1,5 +1,5 @@
 /*
-Version: 1.0
+Version: 1.2
 Description: Written by <a href="https://profiles.wordpress.org/kenshino/">Jon Ang</a>.
 Author: Jon Ang
 Author URI: https://lordjon.com/
@@ -22,6 +22,52 @@ Tags: wordcamp, singapore
 thead th {
 	text-align: center;
 }
+
+/* Speakers */
+
+div.wcorg-speaker {
+	padding: 0.7rem 0;
+}
+
+.wcorg-speaker > h2{
+	font-family: "Oxygen", Montserrat, "Helvetica Neue", sans-serif;
+	margin-bottom: 0;
+}
+
+.wcorg-speaker-description > img{
+	max-width: 100px;
+	width: 100%;
+	margin: 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+.wcorg-speaker-description > h3{
+	float: left;
+	width: 80%;
+	clear: right;
+	margin-top: 3.3rem;
+	font-weight: normal;
+	font-size: 1.1rem;
+}
+
+.wcorg-speaker-description p{
+	clear: both;
+}
+
+/* Speaker Introduction Posts */
+
+div.wcorg-speaker-post {
+	padding: 1.2rem 0;
+}
+
+.wcorg-speaker-post > img{
+	border-radius: 50%;
+	float: left;
+	clear: left;
+	margin: 0 1.2rem 0 0;
+}
+
 
 /* Schedule */
 
@@ -131,6 +177,14 @@ td.wcpt-session-type-session {
 	.wcorg-organizer {
 		float: left;
 		width: 50%;
+	}
+	
+	.wcorg-speaker-description > img{
+		width: 20%;
+	}
+	
+	#tix-attendees .tix-columns-3 li {
+    		width: 33.333%;
 	}
 
 }
