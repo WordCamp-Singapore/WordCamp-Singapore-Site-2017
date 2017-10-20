@@ -25,6 +25,10 @@ thead th {
 
 /* Speakers */
 
+.site .avatar {
+    border-radius: 50%;
+}
+
 div.wcorg-speaker {
 	padding: 0.7rem 0;
 }
