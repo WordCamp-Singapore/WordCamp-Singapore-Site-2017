@@ -101,6 +101,10 @@ tr.global-session > td{
 	text-align: center;
 }
 
+td.wcpt-session-type-session{
+	text-align:center;
+}
+
 td.wcpt-session-type-custom {
 	color: #777;
 }
